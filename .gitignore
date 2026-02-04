@@ -1,24 +1,14 @@
-﻿# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pkl
-
-# Environnements
-env/
-venv/
-.venv/
-
-# Données et fichiers lourds
+﻿# Ignorer fichiers de données lourds
 *.json
 *.jsonl
 *.csv
 *.h5
 *.pt
 *.ckpt
-*.tar.gz
-*.zip
 
-# Autres
-.DS_Store
+# Ignorer environnement et caches Python
+env/
+venv/
+.venv/
+__pycache__/
+*.pyc
