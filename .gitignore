@@ -1,4 +1,4 @@
-﻿# Ignorer fichiers de données lourds
+﻿# Ignorer gros fichiers et données
 *.json
 *.jsonl
 *.csv
@@ -6,7 +6,7 @@
 *.pt
 *.ckpt
 
-# Ignorer environnement et caches Python
+# Ignorer environnement Python
 env/
 venv/
 .venv/
