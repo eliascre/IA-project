@@ -1,0 +1,20 @@
+﻿# Environnements
+.venv/
+__pycache__/
+
+# Données lourdes
+*.csv
+*.json
+*.parquet
+*.xlsx
+
+# Modèles IA
+models/
+*.pt
+*.bin
+*.ckpt
+
+# Logs & cache
+*.log
+.cache/
+outputs/
