@@ -1,20 +1,24 @@
-﻿# Environnements
-.venv/
+﻿# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
 
-# Données lourdes
-*.csv
+# Environnements
+env/
+venv/
+.venv/
+
+# Données et fichiers lourds
 *.json
-*.parquet
-*.xlsx
-
-# Modèles IA
-models/
+*.jsonl
+*.csv
+*.h5
 *.pt
-*.bin
 *.ckpt
+*.tar.gz
+*.zip
 
-# Logs & cache
-*.log
-.cache/
-outputs/
+# Autres
+.DS_Store
